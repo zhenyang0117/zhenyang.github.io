@@ -80,7 +80,142 @@ and reasoning.</li>
           </tr>
         </tbody></table>
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-	<tr>
+		<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/ui2code.png" alt="fqn" width="280" height="160" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/***">
+                <papertitle>UI2Code^N: A Visual Language Model for Test-Time Scalable Interactive UI-to-Code Generation</papertitle>
+              </a>
+              <br>
+              <strong>Zhen Yang*</strong>,
+              Wenyi Hong*,
+              Mingde Xu, 
+			  Xinyue Fan, 
+			  Weihan Wang, 
+			  Jiele Cheng, 
+			  Xiaotao Gu,
+	          Jie Tang
+              <br>
+              <em>arXiv</em>, 2025
+              <br>
+              <a href="https://arxiv.org/pdf/2511.08195">paper</a>,
+              <a href="https://github.com/zai-org/UI2Code_N">code</a>
+              <p></p>
+              <p>UI2Code^N is a visual language foundation model trained through staged pretraining, fine-tuning, and reinforcement learning to achieve foundational improvements in multimodal coding, which unifies three key capabilities: UI-to-code generation , UI editing , and UI polishing .
+
+			 (1) Interactive UI-to-Code Paradigm – We redefine UI-to-code generation as iterative reasoning with visual feedback, enabling flexible code generation, editing, and test-time scaling (e.g., +12% improvement with four rounds of polishing).
+			 (2) First open-source Unified UI2Code Model – UI2CodeN is the first open-source VLM to jointly support UI-to-code, UI editing, and UI polishing, achieving state-of-the-art results on Design2Code, Flame-React-Eval, and Web2Code, outperforming Gemini-2.5-Pro and Claude-4-Sonnet.
+             (3) Full Training Recipe for Coding VLM – We are the first to release a complete three-stage training pipeline—pretraining, supervised fine-tuning, and reinforcement learning with a novel reward design—balancing data realism with code generation quality.</p>
+            </td>
+          </tr>
+		<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/webvia.png" alt="fqn" width="280" height="160" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/pdf/2511.06251">
+                <papertitle>WebVIA: A Web-based Vision-Language Agentic Framework for Interactive and Verifiable UI-to-Code Generation</papertitle>
+              </a>
+              <br>
+			  Mingde Xu*,
+              <strong>Zhen Yang*</strong>,
+              Wenyi Hong,
+              Lihang Pan,
+              Xinyue Fan,
+	      	  Xiaotao Gu,
+	          Bin Xu,
+	         Jie Tang
+              <br>
+              <em>arXiv</em>, 2025
+              <br>
+              <a href="https://arxiv.org/pdf/2511.06251">paper</a>,
+			  <a href="https://github.com/zheny2751-dotcom/WebVIA">code</a>
+              <p></p>
+              <p>WebVIA is the first agentic framework for interactive and verifiable UI-to-Code generation. While prior vision-language models only produce static HTML/CSS layouts, WebVIA enables executable and interactive web interfaces. The framework consists of three modules: (1) WebVIA-Agent – navigates websites and captures multi-state UI screenshots. (2) WebVIA-UI2Code – generates functional HTML/CSS/JavaScript code with interactivity. (3) Validation Module – verifies whether the generated UI behaves as expected. WebVIA-Agent achieves more stable and accurate UI exploration than general-purpose agents (e.g., Gemini-2.5-Pro), and WebVIA-UI2Code significantly improves executable and interactive code generation across multiple benchmarks.</p>
+            </td>
+          </tr>
+		<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/mathse.png" alt="fqn" width="280" height="160" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/***">
+                <papertitle>MathSE: Improving Multimodal Mathematical Reasoning via Self-Evolving Iterative Reflection and Reward-Guided Fine-Tuning</papertitle>
+              </a>
+              <br>
+			  Jinhao Chen*,
+              <strong>Zhen Yang*</strong>,
+              Jianxin Shi,
+              Tianyu Wo,
+	          Jie Tang
+              <br>
+              <em>AAAI 2026</em>
+              <br>
+              <a href="https://arxiv.org/pdf/2511.06805">paper</a>,
+              <a href="https://github.com/zheny2751-dotcom/MathSE">code</a>
+              <p></p>
+              <p>MathSE unifies distilled supervision, an Outcome Reward Model (ORM), and reflection-driven data refresh to progressively enhance math reasoning in multimodal LLMs.</p>
+            </td>
+          </tr>
+		<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/mathglm-vision.png" alt="fqn" width="280" height="160" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/***">
+                <papertitle>MathGLM-Vision: Solving Mathematical Problems with Multi-Modal Large Language Model</papertitle>
+              </a>
+              <br>
+              <strong>Zhen Yang*</strong>,
+              Jinhao Chen*,
+              Zhengxiao Du,
+              Wenmeng Yu,
+	      Weihan Wang,
+	      Wenyi Hong,
+	      Zhihuan Jiang,
+	      Bin Xu,
+	      Yuxiao Dong,
+	      Jie Tang
+              <br>
+              <em>Manuscript</em>, 2024
+              <br>
+              <a href="https://arxiv.org/pdf/2409.13729">paper</a>,
+              <a href="https://github.com/THUDM/MathGLM-Vision">code</a>
+              <p></p>
+              <p>We aim to construct a fine-tuning dataset MathVL, and develop a series of specialized mathematical MLLMs MathGLM-Vision with various parameter-scale backbones.</p>
+            </td>
+          </tr>
+		<tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/mathglm-vision.png" alt="fqn" width="280" height="160" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/***">
+                <papertitle>MathGLM-Vision: Solving Mathematical Problems with Multi-Modal Large Language Model</papertitle>
+              </a>
+              <br>
+              <strong>Zhen Yang*</strong>,
+              Jinhao Chen*,
+              Zhengxiao Du,
+              Wenmeng Yu,
+	      Weihan Wang,
+	      Wenyi Hong,
+	      Zhihuan Jiang,
+	      Bin Xu,
+	      Yuxiao Dong,
+	      Jie Tang
+              <br>
+              <em>Manuscript</em>, 2024
+              <br>
+              <a href="https://arxiv.org/pdf/2409.13729">paper</a>,
+              <a href="https://github.com/THUDM/MathGLM-Vision">code</a>
+              <p></p>
+              <p>We aim to construct a fine-tuning dataset MathVL, and develop a series of specialized mathematical MLLMs MathGLM-Vision with various parameter-scale backbones.</p>
+            </td>
+          </tr>
+		<tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/mathglm-vision.png" alt="fqn" width="280" height="160" style="border-style: none">
             </td>
